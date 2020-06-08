@@ -24,8 +24,8 @@ int j = 0;
 void setup() {
   pinMode(MOTOR_PIN, OUTPUT);
   pinMode(BTN_A_PIN, INPUT);
-  pinMode(BTN_B_PIN, INPUT);
-  pinMode(BTN_C_PIN, INPUT);
+//  pinMode(BTN_B_PIN, INPUT);
+//  pinMode(BTN_C_PIN, INPUT);
 
   strip.begin();
   strip.setBrightness(50);
